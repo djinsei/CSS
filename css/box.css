@@ -1,0 +1,165 @@
+/*
+ * Metamorphosis (Box)
+ * by Djin-san & The Djinsei Developer
+ * 
+ */
+
+html {
+ box-sizing: border-box;
+ -ms-overflow-style: scrollbar; }
+
+*,
+*::before,
+*::after {
+ box-sizing: inherit; } 
+
+.box {
+ width: 100%;
+ padding-right: 10px;
+ padding-left: 10px;
+ margin-right: auto;
+ margin-left: auto; }
+
+@media (min-width: 600px) {
+ .box { max-width: 550px; } }
+@media (min-width: 900px) {
+ .box { max-width: 850px; } }
+@media (min-width: 1200px) {
+ .box { max-width: 1150px; } }
+
+.box > .space {
+ margin-right: 0;
+ margin-left: 0; } 
+
+.fullscreen {
+ width: 100%;
+ padding-right: 10px;
+ padding-left: 10px;
+ margin-right: auto;
+ margin-left: auto; } 
+
+.grid {
+ display: flex;
+ flex-wrap: wrap;
+ margin-right: -10px;
+ margin-left: -10px; }
+
+.grid [class^="v"] {
+ position: relative;
+ width: 100%;
+ padding-right: 10px;
+ padding-left: 10px; }
+
+@media (min-width: 600px) {
+ .small > .v1 {
+  flex: 0 0 8.333333%;
+  max-width: 8.333333%; }
+ .small > .v2 {
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%; }
+ .small > .v3 {
+  flex: 0 0 25%;
+  max-width: 25%; }
+ .small > .v4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%; }
+ .small > .v5 {
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%; }
+ .small > .v6 {
+  flex: 0 0 50%;
+  max-width: 50%; }
+ .small > .v7 {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%; }
+ .small > .v8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%; }
+ .small > .v9 {
+  flex: 0 0 75%;
+  max-width: 75%; }
+ .small > .v10 {
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%; }
+ .small > .v11 {
+  flex: 0 0 91.666667%;
+  max-width: 91.666667%; }
+ .small > .v12 {
+  flex: 0 0 100%;
+  max-width: 100%; } }
+
+@media (min-width: 900px) {
+ .medium > .v1 {
+  flex: 0 0 8.333333%;
+  max-width: 8.333333%; }
+ .medium > .v2 {
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%; }
+ .medium > .v3 {
+  flex: 0 0 25%;
+  max-width: 25%; }
+ .medium > .v4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%; }
+ .medium > .v5 {
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%; }
+ .medium > .v6 {
+  flex: 0 0 50%;
+  max-width: 50%; }
+ .medium > .v7 {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%; }
+ .medium > .v8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%; }
+ .medium > .v9 {
+  flex: 0 0 75%;
+  max-width: 75%; }
+ .medium > .v10 {
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%; }
+ .medium > .v11 {
+  flex: 0 0 91.666667%;
+  max-width: 91.666667%; }
+ .medium > .v12 {
+  flex: 0 0 100%;
+  max-width: 100%; } }
+
+@media (min-width: 1200px) {
+ .large > .v1 {
+  flex: 0 0 8.333333%;
+  max-width: 8.333333%; }
+ .large > .v2 {
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%; }
+ .large > .v3 {
+  flex: 0 0 25%;
+  max-width: 25%; }
+ .large > .v4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%; }
+ .large > .v5 {
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%; }
+ .large > .v6 {
+  flex: 0 0 50%;
+  max-width: 50%; }
+ .large > .v7 {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%; }
+ .large > .v8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%; }
+ .large > .v9 {
+  flex: 0 0 75%;
+  max-width: 75%; }
+ .large > .v10 {
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%; }
+ .large > .v11 {
+  flex: 0 0 91.666667%;
+  max-width: 91.666667%; }
+ .large > .v12 {
+  flex: 0 0 100%;
+  max-width: 100%; } }
